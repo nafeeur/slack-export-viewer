@@ -8,3 +8,6 @@ This is a simple web-based viewer for Slack export data. It allows you to upload
 - Timestamps displayed for each message, including date and year.
 - Hyperlinks within messages are clickable.
 - Clean and modern user interface.
+
+https://slack.nafeeur.com/
+

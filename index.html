@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slack Export Viewer</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h2 class="sidebar__header" id="channelName">Slack Export Viewer</h2>
+      <input type="file" id="jsonFileUpload" accept=".json">
+      <label for="jsonFileUpload" class="sidebar__upload-label">Upload JSON file</label>
+    </aside>
+    <main class="content">
+      <div class="messages" id="app">
+        <!-- Message card will be inserted here -->
+        <div class="message">
+          <div class="message__header">
+            <span class="message__user">User1</span> 
+            <span class="message__timestamp">2020-01-04 14:32</span>
+          </div>
+          <div class="message__text">
+            This is a sample message.
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

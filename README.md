@@ -11,7 +11,6 @@ This is a simple web-based viewer for Slack export data. It allows you to upload
 - Hyperlinks within messages are clickable.
 - Clean and modern user interface.
 
-**Note:** For now, it only supports JSON exports by https://github.com/rusq/slackdump. Official Slack export support is coming soon.
-
+**Note: It currently only supports JSON dumps through https://github.com/rusq/slackdump. Official Slack export support is coming soon.**
 
 

@@ -1,5 +1,7 @@
 # Slack Export Viewer
 
+https://slack.nafeeur.com/
+
 This is a simple web-based viewer for Slack export data. It allows you to upload a JSON file of exported Slack messages and view them in a clean, user-friendly format.
 
 # Features
@@ -9,5 +11,7 @@ This is a simple web-based viewer for Slack export data. It allows you to upload
 - Hyperlinks within messages are clickable.
 - Clean and modern user interface.
 
-https://slack.nafeeur.com/
+Note: For now, it only supports JSON exports by https://github.com/rusq/slackdump. Official Slack export support is coming soon.
+
+
 
